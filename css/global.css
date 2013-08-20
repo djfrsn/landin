@@ -1,0 +1,389 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+@font-face {
+    font-family: 'FrenchyRegular';
+    src: url('../fonts/frenchy.eot');
+    src: url('../fonts/frenchy.eot') format('embedded-opentype'),
+         url('../fonts/frenchy.woff') format('woff'),
+         url('../fonts/frenchy.ttf') format('truetype'),
+         url('../fonts/frenchy.svg#FrenchyRegular') format('svg');
+}
+@font-face {
+    font-family: 'jailbIrDJenNARegular';
+    src: url('../fonts/jenna.eot');
+    src: url('../fonts/jenna.eot') format('embedded-opentype'),
+         url('../fonts/jenna.woff') format('woff'),
+         url('../fonts/jenna.ttf') format('truetype'),
+         url('../fonts/jenna.svg#jailbIrDJenNARegular') format('svg');
+}
+@font-face {
+    font-family: 'TrueLiesRegular';
+    src: url('../fonts/truelies.eot');
+    src: url('../fonts/truelies.eot') format('embedded-opentype'),
+         url('../fonts/truelies.woff') format('woff'),
+         url('../fonts/truelies.ttf') format('truetype'),
+         url('../fonts/truelies.svg#TrueLiesRegular') format('svg');
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	letter-spacing: 5px;
+}
+div {
+	z-index: 102;
+}
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 100;
+}
+#page {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+    -webkit-transition: all 0.3 ease;
+    -moz-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity:0.70;
+	filter:alpha(opacity=70);
+	z-index: 101;
+}
+.frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#songs {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+}
+	#songs  div.choices{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin-top: 8px;
+		text-align: center;
+		color: white;
+		font-family: 'Permanent Marker';
+	}
+		#songs a {
+			font-size: 20px;
+			color: white;
+			text-decoration: none;
+			opacity:0.80;
+			filter:alpha(opacity=80);
+			margin: 0 10px;
+		}
+			#songs a:hover, #songs a.active{
+				opacity:1.00;
+				filter:alpha(opacity=100);
+			}
+				#songs a.truelies {
+					font-family: 'TrueLiesRegular';
+				}
+
+				#songs a.jenna {
+					font-family: 'jailbIrDJenNARegular';
+					font-size: 13px;
+				}
+#downloadFrame {
+	position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#downloadwrap {
+	position: absolute;
+    top: -22px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+	.table {
+	   display: table;
+	   width: 100%;
+	   height: 100%;
+	}
+		.cell {
+		   display: table-cell;
+		   text-align: center;
+		   vertical-align: middle;
+		   margin: 0;
+		   padding: 0;
+		}
+			#downloadwrap img{
+				position: relative;
+                max-height: 85%;
+			}
+.textbox {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	bottom: 60px;
+}
+.textbox p {
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.rslides {
+  position: relative;
+  bottom: 15px;
+  list-style: none;
+  overflow: hidden;
+  width: 60%;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+#photosFrame {
+	position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+}
+#photoswrap {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+	#photoswrap  .textbox{
+		display: inline-block;
+		margin-top: 15px;
+		background-color: black;
+		color: white;
+		font-family: Courier,'FrenchyRegular';
+		font-size: 18px;
+		padding: 10px;
+		overflow: hidden;
+	}
+	#photoswrap .carousel {
+		display: inline-block;
+		width: 940px;
+		height: 350px;
+		margin-top: 60px;
+		background-color: black;
+	}
+.backtotop {
+	position: absolute;
+	right: 8%;
+	bottom: 68px;
+	background-image: url('../webimages/backtotop.png');
+	background-repeat: no-repeat;
+	height: 58px;
+	width: 49px;
+	opacity:0.50;
+	filter:alpha(opacity=50);
+	cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+	.backtotop:hover {
+		opacity:.90;
+		filter:alpha(opacity=90);
+	}
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 48px;
+}
+		#footer #nav {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+            z-index: 10000;
+		}
+			#footer ul {
+				margin: 0;
+				padding: 0;
+			}
+				#footer li {
+					display: inline-block;
+				}
+					#footer li  a {
+						color: #999999;
+						font-size: 18px;
+						margin: 0 15px;
+						text-decoration: none;
+						line-height: 50px;
+						font-family: 'Permanent Marker';
+					}
+						#footer li  a:hover {
+							color: #eeeeee;
+						}
+		#footer #social {
+			position: absolute;
+			top: 9px;
+			left: 9px;
+			text-align: left;
+            z-index: 10000;
+		}
+			#footer #social img {
+				border: 0;
+				height: 30px;
+				width: 30px;
+				opacity:0.70;
+				filter:alpha(opacity=70);
+			}
+				#footer #social img:hover {
+					opacity:1.00;
+					filter:alpha(opacity=100);
+				}
+		#footer #copyright {
+			position: absolute;
+			top: 9px;
+			right: 9px;
+			text-align: right;
+			font-family: 'Rock Salt';
+			color: white;
+			font-size: 13px;
+			opacity:0.70;
+			filter:alpha(opacity=70);
+            z-index: 10000;
+		}
+			#footer #copyright img {
+				height: 25px;
+				cursor: pointer;
+			}
+				#footer #copyright #pause {
+					margin-right: 75px;
+					opacity:0.70;
+					filter:alpha(opacity=70);
+				}
+                    #footer #copyright h3 {
+                        position: absolute;
+                        top: -18px;
+                        left: -221px;
+                    }
+
+@media only screen and (max-width : 1080px) {
+    #footer #copyright h3 { visibility: hidden; }
+}
+
+@media only screen and (max-width : 900px) {
+	#footer #copyright h3 { visibility: hidden; }
+}
+@media only screen and (max-width : 760px) {
+	#social { display: none; }
+	#copyright h3 { display: none; }
+	#footer li a {
+        font-size: 12px;
+        margin: 0 0 0 14px;
+    }
+    #footer #copyright #pause {
+        margin-right: 10px;
+    }
+	#songs .choices  a.truelies{ font-size: 12px; }
+	#songs .choices  a.jenna{ font-size: 8px; }
+}
+
+@media only screen and (max-width : 480px) {
+    #footer #nav {
+        text-align: left !important;
+    }
+    #footer #copyright #pause {
+        margin-right: 10px;
+    }
+    #footer li  a {
+        font-size: 12px;
+        margin: 0 0 0 14px;
+    }
+    #downloadwrap img {
+        width: 100%;
+        height: auto;
+        max-height: 85%;
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width : 321px) {
+    #songs {
+        height: 60px;
+    }
+}
+
+/*I added my bit here*/
+
+.sky-high {
+    top: -1000px !important;
+    overflow: hidden;
+}
+
+.hide-toggle {
+    bottom: -100px;
+}
+
+.show-toggle {
+    bottom: 68px !important;
+}
+
+.video-holder {
+    position: relative;
+    width: 100% !important;
+    height: auto;
+    display: block;
+    -webkit-transition: height 0.3s ease;
+    -moz-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+
