@@ -43,8 +43,8 @@ video {
 	position: absolute;
 	top: 0;
 	left: 0;
-	min-width: 100%;
-	min-height: 100%;
+	width: 100%;
+	height: auto;
 	z-index: 100;
 }
 #page {
@@ -322,6 +322,9 @@ video {
 
 @media only screen and (max-width : 900px) {
 	#footer #copyright h3 { visibility: hidden; }
+	.main-video {
+		margin-top: 40px;
+	}
 }
 @media only screen and (max-width : 760px) {
 	#social { display: none; }
@@ -360,6 +363,9 @@ video {
     #songs {
         height: 60px;
     }
+    .main-video {
+		margin-top: 60px;
+	}
 }
 
 /*I added my bit here*/
@@ -386,4 +392,3 @@ video {
     -moz-transition: height 0.3s ease;
     transition: height 0.3s ease;
 }
-

@@ -165,7 +165,7 @@ function Frames() {
 	});
 
 	$('.backtotop').click(function() {
-		var $homeVideo = $(".video-holder");
+		var $homeVideo = $(".main-video");
 		var $toggle = $(".backtotop");
 		Slide('');
 		$homeVideo.removeClass("sky-high");
@@ -189,7 +189,7 @@ function Frames() {
 jQuery(document).ready(function($){
     $("#nav").find("a").on('click', function(e) {
         e.preventDefault();
-        var $homeVideo = $("#video-holder");
+        var $homeVideo = $(".main-video");
         var $toggle = $(".backtotop");
         $homeVideo.addClass("sky-high");
         $toggle.addClass("show-toggle");

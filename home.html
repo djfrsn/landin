@@ -13,9 +13,9 @@
 		<div id="page" class="frame">
 			<div id="video-holder">
 				<video class="main-video" autoplay loop>
-					<source src="content/movie.mp4" type="video/webm">
 					<source src="content/movie.webm" type="video/webm">
-					<source src="content/movie.ogg" type="video/webm">
+					<source src="content/movie.mp4" type="video/webm">
+					<source src="content/movie.ogv" type="video/webm">
 					Your browser does not support the video tag.
 				</video>
 			</div>
@@ -84,9 +84,9 @@
 		<script src="js/responsiveslides.min.js"></script>
 		<script src="js/jquery.fitvids.js"></script>
 		<script>
-		  $(document).ready(function(){
-		    $("#video-holder").fitVids();
-		  });
+			$(function(){
+			$("#video-holder").fitVids();
+		  	});
 		</script>
 		<script>
   			$(function() {
