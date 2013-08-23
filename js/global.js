@@ -75,38 +75,38 @@ function Frames() {
 
 		var currentframe_end_top = 0,
 			currentframe_end_left = 0,
-			newframe_start_top = 0,
-			newframe_start_left = 0,
+			newframe_start_top = -2000,
+			newframe_start_left = -2000,
 			newframe_end_top = 0,
 			newframe_end_left = 0,
 			newframe;
 
 		if(currentframe==home){ // Current Frame == Home
-			currentframe_end_top = '-200%';
+			currentframe_end_top = '-300%';
 			currentframe_end_left = 0;
-			newframe_start_top = '100%';
+			newframe_start_top = '150%';
 			newframe_start_left = 0;
 		}
 		else if(newframe==home) // Destination Home
 		{
-			currentframe_end_top = '-200%',
+			currentframe_end_top = '-300%',
 			currentframe_end_left = 0,
-			newframe_start_top = '100%',
+			newframe_start_top = '150%',
 			newframe_start_left = 0
 		}
 		else if(newframe==downloads) // Destination Download
 		{
 			currentframe_end_top = 0;
-			currentframe_end_left = '-200%';
+			currentframe_end_left = '-300%';
 			newframe_start_top = 0;
-			newframe_start_left = '100%';
+			newframe_start_left = '150%';
 		}
 		else if(newframe==photos) // Destination Photos
 		{
 			currentframe_end_top = 0;
-			currentframe_end_left = '100%';
+			currentframe_end_left = '150%';
 			newframe_start_top = 0;
-			newframe_start_left = '-200%';
+			newframe_start_left = '-300%';
 		} else {
 
 		}
@@ -115,8 +115,8 @@ function Frames() {
 			top: newframe_start_top,
 			left: newframe_start_left
 		});
-		currentframe.animate({top: currentframe_end_top, left: currentframe_end_left}, '-200%', 'easeOutBounce', function(){});
-		newframe.animate({top: newframe_end_top, left: newframe_end_left}, '-200%', 'easeOutBounce', function(){
+		currentframe.animate({top: currentframe_end_top, left: currentframe_end_left}, '-300%', 'easeOutBounce', function(){});
+		newframe.animate({top: newframe_end_top, left: newframe_end_left}, '-300%', 'easeOutBounce', function(){
 			currentframe = newframe;
 			SetHash(currentframe);
 			active = false;
