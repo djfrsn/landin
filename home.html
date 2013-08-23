@@ -19,6 +19,9 @@
 					Your browser does not support the video tag.
 				</video>
 			</div>
+			<div class="small-video">
+				<iframe width="853" height="480" src="//www.youtube.com/embed/8_2KhcX9D3g?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
 			<div id="songsFrame" class="frame">
 				<div id="songs">
 					<div class="overlay"></div>
@@ -86,6 +89,11 @@
 		<script>
 			$(function(){
 			$("#video-holder").fitVids();
+		  	});
+		</script>
+		<script>
+			$(function(){
+			$(".small-video").fitVids();
 		  	});
 		</script>
 		<script>

@@ -291,7 +291,7 @@ video {
 				}
 		#footer #copyright {
 			position: absolute;
-			top: 9px;
+			top: 0;
 			right: 9px;
 			text-align: right;
 			font-family: 'Rock Salt';
@@ -306,29 +306,39 @@ video {
 				cursor: pointer;
 			}
 				#footer #copyright #pause {
-					margin-right: 75px;
+					margin-right: 140px;
 					opacity:0.70;
 					filter:alpha(opacity=70);
 				}
                     #footer #copyright h3 {
-                        position: absolute;
-                        top: -18px;
-                        left: -221px;
+                        position: relative;
+                        display: inline-block;
+                        top: -6px;
                     }
 
 @media only screen and (max-width : 1080px) {
-    #footer #copyright h3 { visibility: hidden; }
+    #footer #copyright #pause, #footer #copyright #play {
+        visibility: hidden;
+    }
+    .small-video {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 900px) {
-	#footer #copyright h3 { visibility: hidden; }
+	#footer #copyright #pause, #footer #copyright #play {
+        visibility: hidden;
+    }
 	.main-video {
 		margin-top: 40px;
 	}
+    .small-video {
+        display: none;
+    }
 }
 @media only screen and (max-width : 760px) {
 	#social { display: none; }
-	#copyright h3 { display: none; }
+	#footer #copyright h3 { display: none; }
 	#footer li a {
         font-size: 12px;
         margin: 0 0 0 14px;
@@ -338,6 +348,9 @@ video {
     }
 	#songs .choices  a.truelies{ font-size: 12px; }
 	#songs .choices  a.jenna{ font-size: 8px; }
+    .main-video {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -357,6 +370,10 @@ video {
         max-height: 85%;
         max-width: 85%;
     }
+    #footer #copyright h3 { display: none; }
+    .main-video {
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 328px) {
@@ -366,6 +383,10 @@ video {
     .main-video {
 		margin-top: 60px;
 	}
+    #footer #copyright h3 { display: none; }
+    .main-video {
+        display: none;
+    }
 }
 
 /*I added my bit here*/
