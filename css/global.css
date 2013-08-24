@@ -346,7 +346,7 @@ video {
         display: none;
     }
     .small-video {
-        visibility: visible;
+        visibility: visible !important;
     }
 }
 
@@ -369,7 +369,7 @@ video {
         display: none;
     }
     .small-video {
-        visibility: visible;
+        visibility: visible !important;
     }
 }
 
@@ -385,7 +385,7 @@ video {
         display: none;
     }
     .small-video {
-        visibility: visible;
+        visibility: visible !important;
     }
 }
 
