@@ -320,9 +320,6 @@ video {
     #footer #copyright #pause, #footer #copyright #play {
         visibility: hidden;
     }
-    .small-video {
-        display: none;
-    }
 }
 
 @media only screen and (max-width : 900px) {
@@ -332,9 +329,6 @@ video {
 	.main-video {
 		margin-top: 40px;
 	}
-    .small-video {
-        display: none;
-    }
 }
 @media only screen and (max-width : 760px) {
 	#social { display: none; }
@@ -351,12 +345,12 @@ video {
     .main-video {
         display: none;
     }
+    .small-video {
+        visibility: visible;
+    }
 }
 
 @media only screen and (max-width : 480px) {
-    #footer #nav {
-        text-align: left !important;
-    }
     #footer #copyright #pause {
         margin-right: 10px;
     }
@@ -374,6 +368,9 @@ video {
     .main-video {
         display: none;
     }
+    .small-video {
+        visibility: visible;
+    }
 }
 
 @media only screen and (max-width : 328px) {
@@ -387,9 +384,16 @@ video {
     .main-video {
         display: none;
     }
+    .small-video {
+        visibility: visible;
+    }
 }
 
 /*I added my bit here*/
+
+.small-video {
+    visibility: hidden;
+}
 
 .sky-high {
     top: -1000px !important;
