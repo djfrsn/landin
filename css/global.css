@@ -393,6 +393,7 @@ video {
 
 .small-video {
     visibility: hidden;
+    margin-top: 40px;
 }
 
 .sky-high {
@@ -416,4 +417,11 @@ video {
     -webkit-transition: height 0.3s ease;
     -moz-transition: height 0.3s ease;
     transition: height 0.3s ease;
+}
+
+.fluid-width-video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    z-index: 100000;
 }
