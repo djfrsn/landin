@@ -394,6 +394,7 @@ video {
 .small-video {
     visibility: hidden;
     margin-top: 40px;
+    z-index: 100000;
 }
 
 .sky-high {
