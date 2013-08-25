@@ -40,7 +40,7 @@ footer, header, hgroup, menu, nav, section {
 /*  Force scrollbar display to prevent jumping on pages.
  *  Fix text resize bug on mobile devices. */
 html {
-    overflow-y: scroll;
+    // overflow-y: scroll;
     -webkit-text-size-adjust: 100%;
         -ms-text-size-adjust: 100%;
 }

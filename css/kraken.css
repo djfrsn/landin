@@ -646,7 +646,6 @@ footer, header, hgroup, menu, nav, section {
  *  Fix text resize bug on mobile devices. */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_reset\.scss}line{font-family:\0000342}}
 html {
-  overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
