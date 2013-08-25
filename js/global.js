@@ -166,9 +166,11 @@ function Frames() {
 
 	$('.backtotop').click(function() {
 		var $homeVideo = $(".main-video");
+		var $smallVideo = $(".small-video");
 		var $toggle = $(".backtotop");
 		Slide('');
 		$homeVideo.removeClass("sky-high");
+		$smallVideo.removeClass("sky-high");
 		$toggle.removeClass("show-toggle");
 	});
 }
@@ -190,8 +192,10 @@ jQuery(document).ready(function($){
     $("#nav").find("a").on('click', function(e) {
         e.preventDefault();
         var $homeVideo = $(".main-video");
+        var $smallVideo = $(".small-video");
         var $toggle = $(".backtotop");
         $homeVideo.addClass("sky-high");
+        $smallVideo.addClass("sky-high");
         $toggle.addClass("show-toggle");
     })
 });
