@@ -1521,3 +1521,8 @@ body:after {
   width: 100%;
   height: 100%;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000334}}
+html {
+  overflow: hidden;
+}
