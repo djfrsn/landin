@@ -44,6 +44,8 @@ html {
 #content {
     display: block;
     position: relative;
-    z-index: 999999999;
     @include transition(all .3s ease);
+        .small-video {
+            z-index: 999;
+        }
 }
