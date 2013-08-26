@@ -373,6 +373,17 @@ video {
     .small-video {
         visibility: visible !important;
     }
+
+    #photoswrap  .textbox{
+        display: inline-block;
+        margin-top: 50px;
+        background-color: black;
+        color: white;
+        font-family: Courier,'FrenchyRegular';
+        font-size: 16px;
+        padding: 10px;
+        overflow: hidden;
+    }
 }
 
 @media only screen and (max-width : 328px) {

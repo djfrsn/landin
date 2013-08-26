@@ -39,7 +39,13 @@ html {
     overflow: hidden;
 }
 
-// for the div that we load ajax trwuest into for videos
+// for the scrollbar hide in webkit
+
+#page::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+// for the div that we load ajax requests into for videos
 
 #content {
     display: block;
@@ -48,4 +54,18 @@ html {
         .small-video {
             z-index: 999;
         }
+}
+
+// for landscape and portrait view respectively
+
+@media only screen and (orientation: landscape) and (max-width: 1080px) {
+    #page {
+        overflow: auto !important;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 468px) {
+    #page {
+        overflow: auto !important;
+    }
 }
