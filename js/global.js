@@ -124,6 +124,11 @@ function Frames() {
 	}
 
 	function GetFrame(href){
+		var $homeVideo = $(".main-video");
+        var $smallVideo = $(".small-video");
+        var $toggle = $(".backtotop");
+        var $downloads = $("#downloadFrame");
+        var $photos = $("#photosFrame");
 		href = href.split('#');
 		if(href[1]=='download'){
 			return downloads;
@@ -165,12 +170,10 @@ function Frames() {
 	});
 
 	$('.backtotop').click(function() {
-		var $homeVideo = $(".main-video");
-		var $smallVideo = $(".small-video");
+		var $content = $("#content");
 		var $toggle = $(".backtotop");
 		Slide('');
-		$homeVideo.removeClass("sky-high");
-		$smallVideo.removeClass("sky-high");
+		$content.removeClass("sky-high");
 		$toggle.removeClass("show-toggle");
 	});
 }
@@ -191,37 +194,33 @@ function Frames() {
 jQuery(document).ready(function($){
     $("#nav").find("a").on('click', function(e) {
         e.preventDefault();
-        var $homeVideo = $(".main-video");
-        var $smallVideo = $(".small-video");
+        var $content = $('#content');
         var $toggle = $(".backtotop");
-        $homeVideo.addClass("sky-high");
-        $smallVideo.addClass("sky-high");
+        var $downloads = $("#downloadFrame");
+        $content.addClass("sky-high");
         $toggle.addClass("show-toggle");
+        $downloads.addClass("show-download-frame");
     })
 });
 
 jQuery(document).ready(function($){
-        var $homeVideo = $(".main-video");
-        var $smallVideo = $(".small-video");
-        var $toggle = $(".backtotop");
-        var $downloads = $("#downloadFrame");
-        var $photos = $("#photosFrame");
+        var $content = $('#content');
+        var $toggle = $('.backtotop');
+        var $downloads = $('#downloadFrame');
+        var $photos = $('#photosFrame');
         // toggle classes on the respective sections
         if (window.location.href == 'http://localhost:5656/landinraw/#photos') {
-            $homeVideo.addClass('sky-high');
-            $smallVideo.addClass('sky-high');
+            $content.addClass('sky-high');
             $toggle.addClass('show-toggle');
             $photos.addClass('show-photos-frame');
             $downloads.addClass('show-download-frame');
         } else if (window.location.href == 'http://localhost:5656/landinraw/#download') {
-        	$homeVideo.addClass('sky-high');
-            $smallVideo.addClass('sky-high');
+        	$content.addClass('sky-high');
             $toggle.addClass('show-toggle');
             $photos.addClass('show-photos-frame');
             $downloads.addClass('show-download-frame');
         } else if (window.location.href == 'http://localhost:5656/landinraw/#home') {
-        	$homeVideo.removeClass('sky-high');
-            $smallVideo.removeClass('sky-high');
+        	$content.removeClass('sky-high');
             $toggle.removeClass('show-toggle');
             $photos.removeClass('show-photos-frame');
             $downloads.removeClass('show-download-frame');

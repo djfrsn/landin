@@ -1,9 +1,10 @@
+@import "bourbon";
+
 // here you can put all of your last minute or lazy hacks.
 // So that you can eliminate them all as you have time or want to
-body {overflow-y:hidden;}
-body:hover {overflow-y:scroll;}
-
-
+body {
+    background: black;
+}
 body:after {
     display: none;
 
@@ -36,4 +37,13 @@ body:after {
 
 html {
     overflow: hidden;
+}
+
+// for the div that we load ajax trwuest into for videos
+
+#content {
+    display: block;
+    position: relative;
+    z-index: 999999999;
+    @include transition(all .3s ease);
 }
