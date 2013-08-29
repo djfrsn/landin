@@ -1,15 +1,76 @@
 // this is for the vertical centering of the small video
 
 // .vertical-float {
-.center-Container {
-  position: relative;
+
+@media (max-width: 480px) {
+    .center-container {
+      position: relative;
+      height: 100%;
+    }
+
+    .absolute-center {
+      width: 100%;
+      max-height: 50%;
+      overflow: auto;
+      margin: auto;
+      position: absolute;
+      top: 0; left: 0; bottom: 0; right: 0;
+    }
+
+    .is-fixed {
+      position: fixed;
+      z-index: 999;
+    }
 }
 
-.absolute-Center {
-  width: 50%;
-  height: 50%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+@media (min-width: 480px) and (max-width: 728px) {
+    .absolute-center {
+      width: 100%;
+      max-height: 70%;
+      overflow: auto;
+      margin: auto;
+      position: absolute;
+      top: 0; left: 0; bottom: 0; right: 0;
+    }
+
+    .center-container {
+      position: relative;
+      height: 100%;
+    }
+
+    .is-fixed {
+      position: fixed;
+      z-index: 999;
+    }
 }
+
+@media (min-width: 728px) and (max-width: 761px) {
+    .absolute-center {
+      width: 100%;
+      max-height: 75%;
+      overflow: auto;
+      margin: auto;
+      position: absolute;
+      top: 0; left: 0; bottom: 0; right: 0;
+    }
+
+    .center-container {
+      position: relative;
+      height: 100%;
+    }
+
+    .is-fixed {
+      position: fixed;
+      z-index: 999;
+    }
+}
+
+// .is-transformed {
+//     width: 50%;
+//       margin: auto;
+//       position: absolute;
+//       top: 50%; left: 50%;
+//       -webkit-transform: translate(-50%,-50%);
+//           -ms-transform: translate(-50%,-50%);
+//               transform: translate(-50%,-50%);
+// }

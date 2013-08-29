@@ -1514,24 +1514,84 @@ select:focus {
   padding: 0.82353em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\000034}}
-.center-Container {
-  position: relative;
-}
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\000036}}
+  .center-container {
+    position: relative;
+    height: 100%;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\000038}}
-.absolute-Center {
-  width: 50%;
-  height: 50%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\0000311}}
+  .absolute-center {
+    width: 100%;
+    max-height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\0000320}}
+  .is-fixed {
+    position: fixed;
+    z-index: 999;
+  }
+}
+@media (min-width: 480px) and (max-width: 728px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\0000327}}
+  .absolute-center {
+    width: 100%;
+    max-height: 70%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\0000336}}
+  .center-container {
+    position: relative;
+    height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\0000341}}
+  .is-fixed {
+    position: fixed;
+    z-index: 999;
+  }
+}
+@media (min-width: 728px) and (max-width: 761px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\0000348}}
+  .absolute-center {
+    width: 100%;
+    max-height: 75%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\0000357}}
+  .center-container {
+    position: relative;
+    height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_vertical-float\.scss}line{font-family:\0000362}}
+  .is-fixed {
+    position: fixed;
+    z-index: 999;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\000036}}
 body {
   background: black;
@@ -1555,8 +1615,7 @@ body:after {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
-  padding-top: 50px;
-  height: 0;
+  height: auto;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000331}}
