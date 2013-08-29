@@ -1,3 +1,4 @@
+// remove the import below for bourbon if you are not using it
 @import "bourbon";
 
 // here you can put all of your last minute or lazy hacks.
@@ -52,11 +53,11 @@ html {
     position: relative;
     @include transition(all .3s ease);
         .small-video {
-            z-index: 999;
+            z-index: 999999999 !important;
         }
 }
 
-// for landscape and portrait view respectively
+// for landscape and portrait view respectively to allow for scrolling on mobileish devices
 
 @media only screen and (orientation: landscape) and (max-width: 1080px) {
     #page {

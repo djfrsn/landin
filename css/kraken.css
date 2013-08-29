@@ -105,14 +105,13 @@ video {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\0000370}}
 .frame {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\0000376}}
 #songs {
   position: absolute;
   top: 0;
@@ -121,7 +120,7 @@ video {
   height: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\0000383}}
 #songs div.choices {
   position: absolute;
   top: 0;
@@ -133,7 +132,7 @@ video {
   font-family: 'Permanent Marker';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\0000393}}
 #songs a {
   font-size: 20px;
   color: white;
@@ -143,24 +142,24 @@ video {
   margin: 0 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003101}}
 #songs a:hover, #songs a.active {
   opacity: 1.00;
   filter: alpha(opacity=100);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003105}}
 #songs a.truelies {
   font-family: 'TrueLiesRegular';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003109}}
 #songs a.jenna {
   font-family: 'jailbIrDJenNARegular';
   font-size: 13px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003113}}
 #downloadFrame {
   position: absolute;
   top: 200%;
@@ -170,7 +169,7 @@ video {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003122}}
 #downloadwrap {
   position: absolute;
   top: -22px;
@@ -179,14 +178,14 @@ video {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003129}}
 .table {
   display: table;
   width: 100%;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003134}}
 .cell {
   display: table-cell;
   text-align: center;
@@ -195,13 +194,13 @@ video {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003141}}
 #downloadwrap img {
   position: relative;
   max-height: 85%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003145}}
 .textbox {
   position: relative;
   margin: 0 auto;
@@ -209,13 +208,13 @@ video {
   bottom: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003151}}
 .textbox p {
   margin: 0 auto;
   padding-top: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003155}}
 .rslides {
   position: relative;
   bottom: 15px;
@@ -227,7 +226,7 @@ video {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003166}}
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -237,14 +236,14 @@ video {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003175}}
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003181}}
 .rslides img {
   display: block;
   height: auto;
@@ -253,7 +252,7 @@ video {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003188}}
 #photosFrame {
   position: absolute;
   top: 100%;
@@ -262,7 +261,7 @@ video {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003195}}
 #photoswrap {
   position: absolute;
   top: 0;
@@ -271,7 +270,7 @@ video {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003202}}
 #photoswrap .textbox {
   display: inline-block;
   margin-top: 15px;
@@ -283,7 +282,7 @@ video {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003212}}
 #photoswrap .carousel {
   display: inline-block;
   width: 940px;
@@ -292,7 +291,7 @@ video {
   background-color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003219}}
 .backtotop {
   position: absolute;
   right: 8%;
@@ -310,13 +309,13 @@ video {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003235}}
 .backtotop:hover {
   opacity: .90;
   filter: alpha(opacity=90);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003239}}
 #footer {
   position: fixed;
   bottom: 0;
@@ -325,7 +324,7 @@ video {
   height: 48px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003246}}
 #footer #nav {
   position: absolute;
   top: 0;
@@ -337,18 +336,18 @@ video {
   z-index: 10000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003256}}
 #footer ul {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003260}}
 #footer li {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003263}}
 #footer li a {
   color: #999999;
   font-size: 18px;
@@ -358,12 +357,12 @@ video {
   font-family: 'Permanent Marker';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003271}}
 #footer li a:hover {
   color: #eeeeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003274}}
 #footer #social {
   position: absolute;
   top: 9px;
@@ -372,7 +371,7 @@ video {
   z-index: 10000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003281}}
 #footer #social img {
   border: 0;
   height: 30px;
@@ -381,13 +380,13 @@ video {
   filter: alpha(opacity=70);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003288}}
 #footer #social img:hover {
   opacity: 1.00;
   filter: alpha(opacity=100);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003292}}
 #footer #copyright {
   position: absolute;
   top: 8px;
@@ -401,20 +400,20 @@ video {
   z-index: 10000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003304}}
 #footer #copyright img {
   height: 25px;
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003308}}
 #footer #copyright #pause {
   margin-right: 140px;
   opacity: 0.70;
   filter: alpha(opacity=70);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003313}}
 #footer #copyright h3 {
   position: relative;
   display: inline-block;
@@ -423,77 +422,77 @@ video {
 }
 
 @media only screen and (max-width: 1080px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003321}}
   #footer #copyright #pause, #footer #copyright #play {
     visibility: hidden;
   }
 }
 @media only screen and (max-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003327}}
   #footer #copyright #pause, #footer #copyright #play {
     visibility: hidden;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003330}}
   .main-video {
     margin-top: 40px;
   }
 }
 @media only screen and (max-width: 760px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003335}}
   #social {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003336}}
   #footer #copyright h3 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003337}}
   #footer li a {
     font-size: 12px;
     margin: 0 0 0 14px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003341}}
   #footer #copyright #pause {
     margin-right: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003344}}
   #songs .choices a.truelies {
     font-size: 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003345}}
   #songs .choices a.jenna {
     font-size: 8px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003346}}
   .main-video {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003349}}
   .small-video {
     visibility: visible !important;
   }
 }
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003355}}
   #footer #copyright #pause {
     margin-right: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003358}}
   #footer li a {
     font-size: 12px;
     margin: 0 0 0 14px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003362}}
   #downloadwrap img {
     width: 100%;
     height: auto;
@@ -501,22 +500,22 @@ video {
     max-width: 85%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003368}}
   #footer #copyright h3 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003369}}
   .main-video {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003372}}
   .small-video {
     visibility: visible !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003376}}
   #photoswrap .textbox {
     display: inline-block;
     margin-top: 50px;
@@ -529,57 +528,57 @@ video {
   }
 }
 @media only screen and (max-width: 328px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003389}}
   #songs {
     height: 60px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003392}}
   .main-video {
     margin-top: 60px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003395}}
   #footer #copyright h3 {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003396}}
   .main-video {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003399}}
   .small-video {
     visibility: visible !important;
   }
 }
 /*I added my bit here*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003406}}
 .small-video {
   visibility: hidden;
   margin-top: 40px;
   z-index: 100000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003412}}
 .sky-high {
   top: -1000px !important;
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003417}}
 .hide-toggle {
   bottom: -1000px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003421}}
 .show-toggle {
   bottom: 68px !important;
   display: block !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003426}}
 .video-holder {
   position: relative;
   width: 100% !important;
@@ -590,7 +589,7 @@ video {
   transition: height 0.3s ease;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003436}}
 .fluid-width-video-wrapper {
   width: 100%;
   position: relative;
@@ -598,12 +597,12 @@ video {
   z-index: 100000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003446}}
 .show-download-frame {
   display: block !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_landin\.scss}line{font-family:\00003450}}
 .show-videos-frame {
   display: block !important;
 }
@@ -1533,12 +1532,12 @@ select:focus {
   right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\000036}}
 body {
   background: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\000039}}
 body:after {
   display: none;
   /* Default */
@@ -1546,12 +1545,12 @@ body:after {
 }
 
 @media (max-width: 760px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000318}}
   body:after {
     content: "Baby Bear";
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000325}}
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -1560,7 +1559,7 @@ body:after {
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000331}}
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -1569,17 +1568,17 @@ body:after {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000339}}
 html {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000345}}
 #page::-webkit-scrollbar {
   width: 0 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000351}}
 #content {
   display: block;
   position: relative;
@@ -1587,19 +1586,19 @@ html {
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000355}}
 #content .small-video {
-  z-index: 999;
+  z-index: 999999999 !important;
 }
 
 @media only screen and (orientation: landscape) and (max-width: 1080px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000363}}
   #page {
     overflow: auto !important;
   }
 }
 @media only screen and (orientation: portrait) and (max-width: 468px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000369}}
   #page {
     overflow: auto !important;
   }
