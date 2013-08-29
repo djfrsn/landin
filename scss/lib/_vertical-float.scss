@@ -3,67 +3,47 @@
 // .vertical-float {
 
 @media (max-width: 480px) {
-    .center-container {
-      position: relative;
-      height: 100%;
-    }
-
     .absolute-center {
-      width: 100%;
       max-height: 50%;
-      overflow: auto;
-      margin: auto;
-      position: absolute;
-      top: 0; left: 0; bottom: 0; right: 0;
-    }
-
-    .is-fixed {
-      position: fixed;
-      z-index: 999;
     }
 }
 
-@media (min-width: 480px) and (max-width: 728px) {
+@media (min-width: 481px) and (max-width: 728px) {
     .absolute-center {
-      width: 100%;
+      max-height: 60%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 727px) {
+    .absolute-center {
       max-height: 70%;
-      overflow: auto;
-      margin: auto;
-      position: absolute;
-      top: 0; left: 0; bottom: 0; right: 0;
-    }
-
-    .center-container {
-      position: relative;
-      height: 100%;
-    }
-
-    .is-fixed {
-      position: fixed;
-      z-index: 999;
     }
 }
 
 @media (min-width: 728px) and (max-width: 761px) {
     .absolute-center {
-      width: 100%;
       max-height: 75%;
-      overflow: auto;
-      margin: auto;
-      position: absolute;
-      top: 0; left: 0; bottom: 0; right: 0;
-    }
-
-    .center-container {
-      position: relative;
-      height: 100%;
-    }
-
-    .is-fixed {
-      position: fixed;
-      z-index: 999;
     }
 }
+
+.center-container {
+    position: relative;
+    height: 100%;
+}
+
+.absolute-center {
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.is-fixed {
+    position: fixed;
+    z-index: 999;
+}
+
 
 // .is-transformed {
 //     width: 50%;
