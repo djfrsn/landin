@@ -61,12 +61,14 @@ html {
 
 @media only screen and (orientation: landscape) and (max-width: 1080px) {
     #page {
-        overflow: auto !important;
+        overflow-y: auto !important;
+        overflow-x: hidden;
     }
 }
 
 @media only screen and (orientation: portrait) and (max-width: 468px) {
     #page {
-        overflow: auto !important;
+        overflow-y: auto !important;
+        overflow-x: hidden;
     }
 }

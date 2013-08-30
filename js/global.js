@@ -209,17 +209,17 @@ jQuery(document).ready(function($){
         var $downloads = $('#downloadFrame');
         var $photos = $('#photosFrame');
         // toggle classes on the respective sections
-        if (window.location.href == 'http://localhost:5656/landinraw/#photos') {
+        if (window.location.href == 'http://landinwest.com/#photos') {
             $content.addClass('sky-high');
             $toggle.addClass('show-toggle');
             $photos.addClass('show-photos-frame');
             $downloads.addClass('show-download-frame');
-        } else if (window.location.href == 'http://localhost:5656/landinraw/#download') {
+        } else if (window.location.href == 'http://landinwest.com/#download') {
         	$content.addClass('sky-high');
             $toggle.addClass('show-toggle');
             $photos.addClass('show-photos-frame');
             $downloads.addClass('show-download-frame');
-        } else if (window.location.href == 'http://localhost:5656/landinraw/#home') {
+        } else if (window.location.href == 'http://landinwest.com/#home') {
         	$content.removeClass('sky-high');
             $toggle.removeClass('show-toggle');
             $photos.removeClass('show-photos-frame');

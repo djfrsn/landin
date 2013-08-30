@@ -1623,12 +1623,14 @@ html {
 @media only screen and (orientation: landscape) and (max-width: 1080px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000363}}
   #page {
-    overflow: auto !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
   }
 }
 @media only screen and (orientation: portrait) and (max-width: 468px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Owner\/Desktop\/sites\/landinraw\/scss\/lib\/_shame\.scss}line{font-family:\0000370}}
   #page {
-    overflow: auto !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
   }
 }
