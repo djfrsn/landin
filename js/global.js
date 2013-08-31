@@ -203,26 +203,29 @@ jQuery(document).ready(function($){
     })
 });
 
-jQuery(document).ready(function($){
-        var $content = $('#content');
-        var $toggle = $('.backtotop');
-        var $downloads = $('#downloadFrame');
-        var $photos = $('#photosFrame');
-        // toggle classes on the respective sections
-        if (window.location.href == 'http://landinwest.com/#photos') {
+// below is the function to remove the video on page
+// based on the hash added to the url
+
+$(function() {
+    var loc = window.location.href; // returns the full URL
+    var $content = $('#content');
+    var $toggle = $('.backtotop');
+    var $downloads = $('#downloadFrame');
+    var $photos = $('#photosFrame');
+    if(/#home/.test(loc)) { // test to see if the url containsd this fragment
+        $content.removeClass('sky-high');
+        $toggle.removeClass('show-toggle');
+        $photos.removeClass('show-photos-frame');
+        $downloads.removeClass('show-download-frame');
+    } else if(/#photos/.test(loc)) {
             $content.addClass('sky-high');
             $toggle.addClass('show-toggle');
             $photos.addClass('show-photos-frame');
             $downloads.addClass('show-download-frame');
-        } else if (window.location.href == 'http://landinwest.com/#download') {
-        	$content.addClass('sky-high');
+    } else if (/#download/.test(loc)) {
+            $content.addClass('sky-high');
             $toggle.addClass('show-toggle');
             $photos.addClass('show-photos-frame');
             $downloads.addClass('show-download-frame');
-        } else if (window.location.href == 'http://landinwest.com/#home') {
-        	$content.removeClass('sky-high');
-            $toggle.removeClass('show-toggle');
-            $photos.removeClass('show-photos-frame');
-            $downloads.removeClass('show-download-frame');
-        }
+    }
 });
