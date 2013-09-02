@@ -323,7 +323,7 @@ video {
     }
 }
 
-@media only screen and (max-width : 900px) {
+@media only screen and (min-width : 761px) and (max-width : 900px) {
     #footer #copyright #pause, #footer #copyright #play {
         visibility: hidden;
     }
@@ -337,6 +337,9 @@ video {
     #footer li a {
         font-size: 12px;
         margin: 0 0 0 14px;
+    }
+    #footer #copyright #pause, #footer #copyright #play {
+        visibility: visible;
     }
     #footer #copyright #pause {
         margin-right: 10px;
