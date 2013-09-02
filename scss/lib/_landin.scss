@@ -329,9 +329,6 @@ video {
     }
 }
 @media only screen and (max-width : 760px) {
-    #footer #copyright #pause, #footer #copyright #play {
-        visibility: visible;
-    }
     #social { display: none; }
     #footer #copyright h3 { display: none; }
     #footer li a {
@@ -339,7 +336,7 @@ video {
         margin: 0 0 0 14px;
     }
     #footer #copyright #pause, #footer #copyright #play {
-        visibility: visible;
+        visibility: hidden;
     }
     #footer #copyright #pause {
         margin-right: 10px;
