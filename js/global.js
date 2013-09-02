@@ -212,7 +212,7 @@ $(function() {
     var $toggle = $('.backtotop');
     var $downloads = $('#downloadFrame');
     var $photos = $('#photosFrame');
-    if(/#home/.test(loc)) { // test to see if the url containsd this fragment
+    if(/#home/.test(loc)) { // test to see if the url contains this fragment
         $content.removeClass('sky-high');
         $toggle.removeClass('show-toggle');
         $photos.removeClass('show-photos-frame');
