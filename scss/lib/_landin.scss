@@ -317,15 +317,31 @@ video {
                         margin-right: 25px;
                     }
 
-@media only screen and (max-width : 1080px) {
+@media only screen and (min-width : 1081px) and (max-width : 1200px) {
+    #footer #copyright #pause, #footer #copyright #play {
+        margin-right: 18px;
+    }
+}
+
+@media only screen and (min-width : 901px) and (max-width : 1080px) {
     // #footer #copyright #pause, #footer #copyright #play {
     //     visibility: hidden;
     // }
+    #footer #copyright #pause, #footer #copyright #play {
+        // margin-right: 125px;
+        position: relative;
+        left: -300px;
+    }
 }
 
 @media only screen and (min-width : 761px) and (max-width : 900px) {
     .main-video {
         margin-top: 40px;
+    }
+    #footer #copyright #pause, #footer #copyright #play {
+        // margin-right: 125px;
+        position: relative;
+        left: -270px;
     }
 }
 @media only screen and (max-width : 760px) {
@@ -338,9 +354,10 @@ video {
     #footer #copyright #pause, #footer #copyright #play {
         visibility: hidden;
     }
-    #footer #copyright #pause {
-        margin-right: 10px;
-    }
+    // #footer #copyright #pause {
+    //     margin-right: 10px;
+    //     position: absolute;
+    // }
     #songs .choices  a.truelies{ font-size: 12px; }
     #songs .choices  a.jenna{ font-size: 8px; }
     .main-video {
