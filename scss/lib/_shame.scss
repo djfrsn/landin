@@ -57,7 +57,17 @@ html {
         }
 }
 
+#play, #pause {
+    visibility: hidden !important;
+}
+
 // for landscape and portrait view respectively to allow for scrolling on mobileish devices
+
+@media only screen and (orientation: landscape) and (min-width: 761px) {
+    #page {
+        overflow: auto !important;
+    }
+}
 
 @media only screen and (orientation: landscape) and (max-width: 1080px) {
     #page {
